@@ -17,7 +17,7 @@ def scan_ports(target_ip, target_ports):
 
 if __name__ == "__main__":
     target_ip = "target_ip"  # Ip Address here
-    ports_to_scan = [53, 80,] # modify 
+    ports_to_scan = [53, 80] # modify 
 
     open_ports = scan_ports(target_ip, ports_to_scan)
 
